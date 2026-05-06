@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- 
+    Student Name: Caitlin Heird
+    File Name: donate.html
+    Date: 05/06/2026
+-->
+<html lang="en">
+<head>
+    <title>Guiding Compass: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="navbar">
+  <div class="logo">
+    <a href="index.html"><img src="images/GuidingCompass_logo.png" alt="Logo"></a>
+    <div>
+      <h1><b>GUIDING <span>COMPASS</span></b></h1>
+      <h1>Animal Shelter</h1>
+    </div>
+  </div>
+  <div class="hamburger" id="hamburger">☰</div>
+  <nav id="nav-menu">
+    <a href="index.html">About</a>
+    <a href="adopt.html">Adopt</a>
+    <a href="contact.html">Contact</a>
+    <a href="resources.html">Resources</a>
+    <a href="donate.html"><button class="secondary">DONATE</button></a>
+  </nav>
+</header>
+
+
+<!-- WAVE DEVIDER -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,40 C300,120 1100,0 1440,60 L1440,120 L0,120 Z"></path>
+         </svg>
+    </div>
+
+<!-- MAIN CONTENT BEGINS  -->
+ 
+    <main>
+      <div class="cont-hold">
+      <section class="donate-section">
+          <h2>Make a Donation</h2>
+          <p>Choose an amount or enter your own to support our mission.</p>
+          
+          <div class="donate-grid">
+
+            <div class="donate-card">
+              <div class="card-content">
+
+                <h3>Select an Amount:</h3>
+                <div class="amount-options">
+                  <button>$25</button>
+                  <button>$50</button>
+                  <button>$100</button>
+                  <button>$250</button>
+                  <button>Other</button>
+                </div> 
+
+                <h3>Donation Frequency:</h3>
+                <select>
+                  <option>One-time</option>
+                  <option>Monthly</option>
+                  <option>Quarterly</option>
+                  <option>Yearly</option>
+                </select>
+
+                <h3>Your Information:</h3>
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone Number">
+
+                <h3>Payment Method:</h3>
+                <div class="payment-options">
+                  <label><input type="radio" name="payment"> Credit / Debit Card</label>
+                  <label><input type="radio" name="payment"> Paypal</label>
+                </div>
+                <button class="secondary"> DONATE </button>
+                <p>Secure and encrypted checkout</p>
+              </div>
+            </div>
+
+            <div class="impact-card">
+              <div class="card-content">
+                <h3>Your Impact:</h3>
+
+                <div class="impact-info">
+
+                  <div class="impact-item">
+                    <img src="images/foodbowl.png" alt="Food Bowl symbol">
+                    <div class="impact-txt">
+                      <h2>$25 Feeds a Pet</h2>
+                      <p>Provide healthy meals for a shelter pet for several days.</p>
+                    </div> 
+                    <hr>
+                  </div>
+
+                  <div class="impact-item">
+                    <img src="images/medical.png" alt="medical symbol">
+                    <div class="impact-txt">                  
+                      <h2>$50 Provides Medical Care</h2>
+                      <p>Helps cover vaccines, checkups, and other essential treatments.</p> 
+                    </div> 
+                    <hr>
+                  </div> 
+
+                  <div class="impact-item">
+                    <img src="images/house.png" alt="house symbol">
+                    <div class="impact-txt">                  
+                      <h2>$100 Supports a Rescue</h2>
+                      <p>Helps fund transport, supplies, and care for rescued animals.</p> 
+                    </div> 
+                    <hr>
+                  </div> 
+                    
+                  <div class="impact-item">
+                    <img src="images/pawprint.png" alt="paw symbol">
+                    <div class="impact-txt">                  
+                      <h2>$250 Gives Hope</h2>
+                      <p>Supports ongoing care, enrichment, and finding forever homes.</p>
+
+                    </div> 
+
+                  </div> 
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="gtd-card">
+              <div class="card-content">
+                <h3>100% of your donation goes to the animals.</h3>
+                <p>We are a registered nonprofit organization. Your donation is tax-deductible.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </main>
+
+<!-- FOOTER BEGINS -->
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Shelter Info -->
+    <div class="footer-section">
+      <h3>Guiding Compass</h3>
+      <p>Animal Shelter</p>
+      <p>Helping every animal find its way home.</p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+
+      <p>
+        Email:
+        <a href="mailto:contact@guidingcompass.org">
+          contact@guidingcompass.org
+        </a>
+      </p>
+
+      <p>
+        Phone:
+        <a href="tel:16065550192">
+          (606) 555-0192
+        </a>
+      </p>
+
+      <p>
+        Ashland, Kentucky
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Resources</h3>
+      <p><a href="donate.html">Donate</a></p>
+      <p><a href="resources.html">Resources</a></p>
+      <p><a href="credits.html">Media Credits</a></p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>
+      © 2026 Guiding Compass Animal Shelter. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
